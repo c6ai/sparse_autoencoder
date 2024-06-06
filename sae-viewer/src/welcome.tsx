@@ -101,7 +101,7 @@ export default function Welcome() {
 
   return (
     <div className="flex flex-col" style={{'padding': '100px'}}>
-      <h1 className="text-2xl font-bold mb-4">Welcome!  This is a viewer for sparse autoencoders features trained in <a href="todo">this paper</a> </h1>
+      <h1 className="text-2xl font-bold mb-4">Welcome!  This is a viewer for sparse autoencoders features trained in <a href="https://cdn.openai.com/papers/sparse-autoencoders.pdf">this paper</a> </h1>
       <h1>Pick a feature:</h1>
       <FeatureSelect
         init_feature={feature}
